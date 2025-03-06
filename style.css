@@ -1,0 +1,29 @@
+div{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: 90px;
+  left: 300px;
+  animation-name: movimiento;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimiento{
+  from{
+    position: relative;
+    top: 90px;
+    left: 300px;
+    background-color: red;
+    }
+  
+  to{
+    position: relative;
+    top: 160px;
+    left: 300px;
+    background-color: yellow;
+  }
+  
+}
